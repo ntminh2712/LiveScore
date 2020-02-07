@@ -1,0 +1,95 @@
+PODS:
+  - Alamofire (4.9.1)
+  - ALLoadingView (1.1.5)
+  - Crashlytics (3.14.0):
+    - Fabric (~> 1.10.2)
+  - Fabric (1.10.2)
+  - IQKeyboardManager (6.5.3)
+  - Kingfisher (4.8.0)
+  - Moya (10.0.2):
+    - Moya/Core (= 10.0.2)
+  - Moya/Core (10.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - MXParallaxHeader (1.0.0)
+  - MZAppearance (1.1.6)
+  - MZFormSheetPresentationController (2.4.3):
+    - MZAppearance
+  - ObjectMapper (3.5.1)
+  - Realm (3.17.3):
+    - Realm/Headers (= 3.17.3)
+  - Realm/Headers (3.17.3)
+  - RealmSwift (3.17.3):
+    - Realm (= 3.17.3)
+  - Result (3.2.4)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - SnapKit (4.0.1)
+  - Socket.IO-Client-Swift (15.1.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - ALLoadingView
+  - Crashlytics
+  - Fabric
+  - IQKeyboardManager
+  - Kingfisher (= 4.8.0)
+  - Moya (= 10.0.2)
+  - MXParallaxHeader
+  - MZFormSheetPresentationController
+  - ObjectMapper (~> 3.3)
+  - RealmSwift (= 3.17.3)
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+  - SnapKit (~> 4.0.0)
+  - Socket.IO-Client-Swift (~> 15.1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ALLoadingView
+    - Crashlytics
+    - Fabric
+    - IQKeyboardManager
+    - Kingfisher
+    - Moya
+    - MXParallaxHeader
+    - MZAppearance
+    - MZFormSheetPresentationController
+    - ObjectMapper
+    - Realm
+    - RealmSwift
+    - Result
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - Socket.IO-Client-Swift
+    - Starscream
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  ALLoadingView: 5f3a5e73402d3ec178dae51ebdb39c1d64c0a87b
+  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  IQKeyboardManager: c2f901164d56807a35788483584d09fa69192e8e
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  Moya: 2b0531a9fef318e0bc484030c3db1e6f279ccb66
+  MXParallaxHeader: a95e0af1f485b1b718a6939f583f0dbae6992c41
+  MZAppearance: 0c06d3fa9cc55142f1da14bc8631fbe8fd6e19d5
+  MZFormSheetPresentationController: fbfdbad31884f16fac17fbe3c44c168306cc1095
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  Realm: 5a1d9d47bfc101dd597668b1a8af4288a2557f6d
+  RealmSwift: b7fdc2d18616621c31df5c7a398a45a2163f8eb0
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  Socket.IO-Client-Swift: 7cb44c0ffb86e158cee32d0642d30ec5fdcf8f61
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+
+PODFILE CHECKSUM: 1ef38456700611d37a4c7b2098626f65a734cc5f
+
+COCOAPODS: 1.7.5

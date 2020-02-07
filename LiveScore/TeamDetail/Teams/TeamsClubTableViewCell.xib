@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="teamsClubTableViewCell" rowHeight="72" id="KGk-i7-Jjw" customClass="TeamsClubTableViewCell" customModule="LiveScore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="475" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="475" height="71.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gST-Pg-VLW">
+                        <rect key="frame" x="20" y="0.0" width="435" height="71.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_avatar" translatesAutoresizingMaskIntoConstraints="NO" id="9e2-7a-tON">
+                                <rect key="frame" x="10" y="10" width="51.5" height="51.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9e2-7a-tON" secondAttribute="height" multiplier="1:1" id="C1B-ri-X85"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teemu Pukki" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXj-XF-9GR">
+                                <rect key="frame" x="76.5" y="10" width="97.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Norwich (Centre Forward)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAR-EN-pon">
+                                <rect key="frame" x="76.5" y="43.5" width="178" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.58358651399999995" green="0.5840438604" blue="0.58365732429999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTa-l8-FKq">
+                                <rect key="frame" x="394" y="25.5" width="11" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.61456626650000001" green="0.65403181310000003" blue="0.99997383360000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.060382530093193054" green="0.060465164482593536" blue="0.060395322740077972" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QAR-EN-pon" firstAttribute="bottom" secondItem="9e2-7a-tON" secondAttribute="bottom" id="0rx-lx-0f9"/>
+                            <constraint firstItem="9e2-7a-tON" firstAttribute="top" secondItem="gST-Pg-VLW" secondAttribute="top" constant="10" id="37z-mZ-dwG"/>
+                            <constraint firstItem="NTa-l8-FKq" firstAttribute="centerY" secondItem="gST-Pg-VLW" secondAttribute="centerY" id="4YX-qw-M9f"/>
+                            <constraint firstAttribute="trailing" secondItem="NTa-l8-FKq" secondAttribute="trailing" constant="30" id="4yA-iA-Sme"/>
+                            <constraint firstItem="HXj-XF-9GR" firstAttribute="leading" secondItem="9e2-7a-tON" secondAttribute="trailing" constant="15" id="6OP-ql-JnM"/>
+                            <constraint firstItem="HXj-XF-9GR" firstAttribute="top" secondItem="9e2-7a-tON" secondAttribute="top" id="7Sz-Xb-Zpx"/>
+                            <constraint firstItem="9e2-7a-tON" firstAttribute="leading" secondItem="gST-Pg-VLW" secondAttribute="leading" constant="10" id="8yD-Ny-wuh"/>
+                            <constraint firstItem="QAR-EN-pon" firstAttribute="leading" secondItem="HXj-XF-9GR" secondAttribute="leading" id="Iz3-fN-4SJ"/>
+                            <constraint firstAttribute="bottom" secondItem="9e2-7a-tON" secondAttribute="bottom" constant="10" id="PB5-WK-HR5"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hHy-Tm-qVm">
+                        <rect key="frame" x="20" y="64.5" width="435" height="17"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CLc-Np-OoL">
+                                <rect key="frame" x="25" y="7.5" width="385" height="2"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="Bri-Ma-ISB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.058823529409999999" green="0.06046516448" blue="0.06039532274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CLc-Np-OoL" firstAttribute="leading" secondItem="hHy-Tm-qVm" secondAttribute="leading" constant="25" id="CHb-ff-IiG"/>
+                            <constraint firstAttribute="trailing" secondItem="CLc-Np-OoL" secondAttribute="trailing" constant="25" id="LTo-YC-0Tf"/>
+                            <constraint firstAttribute="height" constant="17" id="iBw-LI-f9j"/>
+                            <constraint firstItem="CLc-Np-OoL" firstAttribute="centerY" secondItem="hHy-Tm-qVm" secondAttribute="centerY" id="lx3-rx-ARQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="gST-Pg-VLW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="2VS-NF-OOc"/>
+                    <constraint firstItem="gST-Pg-VLW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="BmY-h7-thA"/>
+                    <constraint firstAttribute="trailing" secondItem="gST-Pg-VLW" secondAttribute="trailing" constant="20" id="IG2-a0-z77"/>
+                    <constraint firstItem="hHy-Tm-qVm" firstAttribute="leading" secondItem="gST-Pg-VLW" secondAttribute="leading" id="PJD-Hk-aic"/>
+                    <constraint firstItem="hHy-Tm-qVm" firstAttribute="trailing" secondItem="gST-Pg-VLW" secondAttribute="trailing" id="VRD-7G-DKP"/>
+                    <constraint firstItem="hHy-Tm-qVm" firstAttribute="bottom" secondItem="gST-Pg-VLW" secondAttribute="bottom" constant="10" id="fa3-9J-qaQ"/>
+                    <constraint firstAttribute="bottom" secondItem="gST-Pg-VLW" secondAttribute="bottom" id="uX3-6n-KXI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgAvatar" destination="9e2-7a-tON" id="ef8-1x-uok"/>
+                <outlet property="lbName" destination="HXj-XF-9GR" id="t44-rz-btI"/>
+                <outlet property="lbShirtNo" destination="NTa-l8-FKq" id="5gR-I1-7fB"/>
+                <outlet property="lbTeam" destination="QAR-EN-pon" id="b5O-gn-oFL"/>
+                <outlet property="viewBot" destination="hHy-Tm-qVm" id="ePd-57-pYK"/>
+                <outlet property="viewBound" destination="gST-Pg-VLW" id="Kx8-u7-bKW"/>
+            </connections>
+            <point key="canvasLocation" x="244.20289855072465" y="154.01785714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_avatar" width="959" height="960"/>
+    </resources>
+</document>

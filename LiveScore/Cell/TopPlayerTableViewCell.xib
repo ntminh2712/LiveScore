@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="topPlayerTableViewCell" rowHeight="65" id="KGk-i7-Jjw" customClass="TopPlayerTableViewCell" customModule="LiveScore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="425" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="425" height="71.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BBC-U5-1PT">
+                        <rect key="frame" x="0.0" y="0.0" width="425" height="71.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_barcelona" translatesAutoresizingMaskIntoConstraints="NO" id="W6c-n3-LCY">
+                                <rect key="frame" x="11" y="8.5" width="55" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="j9e-1Y-Fhv"/>
+                                    <constraint firstAttribute="width" secondItem="W6c-n3-LCY" secondAttribute="height" multiplier="1:1" id="s0N-qe-sre"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teemu Pukki" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZQ-mC-Gl4">
+                                <rect key="frame" x="77" y="12" width="283" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Norwich (Centre Forward)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecD-5Y-l2h">
+                                <rect key="frame" x="77" y="38" width="283" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.58358651399612427" green="0.58404386043548584" blue="0.58365732431411743" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RfY-Uf-kvO">
+                                <rect key="frame" x="370" y="25.5" width="25" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="tOc-uf-caa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.61456626653671265" green="0.65403181314468384" blue="0.9999738335609436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="W6c-n3-LCY" firstAttribute="centerY" secondItem="BBC-U5-1PT" secondAttribute="centerY" id="0Xf-tE-3bS"/>
+                            <constraint firstItem="sZQ-mC-Gl4" firstAttribute="leading" secondItem="W6c-n3-LCY" secondAttribute="trailing" constant="11" id="4RU-h4-y8f"/>
+                            <constraint firstItem="sZQ-mC-Gl4" firstAttribute="trailing" secondItem="ecD-5Y-l2h" secondAttribute="trailing" id="8Yd-HD-tsw"/>
+                            <constraint firstItem="sZQ-mC-Gl4" firstAttribute="top" secondItem="BBC-U5-1PT" secondAttribute="top" constant="12" id="AaI-pt-e4g"/>
+                            <constraint firstAttribute="trailing" secondItem="RfY-Uf-kvO" secondAttribute="trailing" constant="30" id="Kc6-I6-aEH"/>
+                            <constraint firstItem="W6c-n3-LCY" firstAttribute="leading" secondItem="BBC-U5-1PT" secondAttribute="leading" constant="11" id="Olp-6h-Ug6"/>
+                            <constraint firstItem="RfY-Uf-kvO" firstAttribute="centerY" secondItem="BBC-U5-1PT" secondAttribute="centerY" id="coX-zL-KEU"/>
+                            <constraint firstItem="ecD-5Y-l2h" firstAttribute="top" secondItem="sZQ-mC-Gl4" secondAttribute="bottom" constant="5" id="r3c-Zt-4SO"/>
+                            <constraint firstItem="RfY-Uf-kvO" firstAttribute="leading" secondItem="ecD-5Y-l2h" secondAttribute="trailing" constant="10" id="uo0-V3-yKG"/>
+                            <constraint firstItem="ecD-5Y-l2h" firstAttribute="leading" secondItem="W6c-n3-LCY" secondAttribute="trailing" constant="11" id="x4F-ed-oYl"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oQI-cP-Ov8">
+                        <rect key="frame" x="11" y="70" width="403" height="2"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s3R-tk-8vv">
+                                <rect key="frame" x="0.0" y="0.0" width="403" height="2"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="koN-tI-TFe"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.058823529409999999" green="0.06046516448" blue="0.06039532274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="gyL-92-ss5"/>
+                            <constraint firstItem="s3R-tk-8vv" firstAttribute="centerY" secondItem="oQI-cP-Ov8" secondAttribute="centerY" id="rIU-yr-IML"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="BBC-U5-1PT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="NQ8-mb-H68"/>
+                    <constraint firstAttribute="bottom" secondItem="BBC-U5-1PT" secondAttribute="bottom" id="OIZ-al-LXs"/>
+                    <constraint firstItem="oQI-cP-Ov8" firstAttribute="leading" secondItem="W6c-n3-LCY" secondAttribute="leading" id="PjA-MX-JfC"/>
+                    <constraint firstItem="oQI-cP-Ov8" firstAttribute="centerX" secondItem="BBC-U5-1PT" secondAttribute="centerX" id="WXC-7C-z2K"/>
+                    <constraint firstAttribute="trailing" secondItem="BBC-U5-1PT" secondAttribute="trailing" id="Z1Y-8G-SGc"/>
+                    <constraint firstItem="s3R-tk-8vv" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="bLT-5A-Rlz"/>
+                    <constraint firstItem="BBC-U5-1PT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="iyk-xl-Fe6"/>
+                    <constraint firstAttribute="bottom" secondItem="oQI-cP-Ov8" secondAttribute="bottom" constant="-0.5" id="nTz-bE-Ju4"/>
+                    <constraint firstItem="s3R-tk-8vv" firstAttribute="leading" secondItem="W6c-n3-LCY" secondAttribute="leading" id="qIb-PG-MGC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgTeam" destination="W6c-n3-LCY" id="v7o-bq-J1i"/>
+                <outlet property="lbCount" destination="RfY-Uf-kvO" id="FMX-xn-74a"/>
+                <outlet property="lbName" destination="sZQ-mC-Gl4" id="Q1k-PM-Hem"/>
+                <outlet property="lbTeamName" destination="ecD-5Y-l2h" id="red-Lh-CXE"/>
+                <outlet property="viewBot" destination="oQI-cP-Ov8" id="bER-Ra-0cl"/>
+                <outlet property="viewBound" destination="BBC-U5-1PT" id="Xlc-EG-iYn"/>
+            </connections>
+            <point key="canvasLocation" x="200.72463768115944" y="175.44642857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_barcelona" width="300" height="305"/>
+    </resources>
+</document>
